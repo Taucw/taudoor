@@ -20,3 +20,5 @@ module.exports = (robot) ->
 
   robot.respond /gracias/i, (msg) ->
     msg.send 'De nada :)'
+  robot.respond /you suck/i, (msg) ->
+    msg.send 'Fuck off !!'
